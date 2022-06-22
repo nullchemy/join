@@ -1,0 +1,227 @@
+.join_us {
+  width: 100%;
+}
+
+.join_us .join_container {
+  margin: 0 10%;
+}
+
+.join_us .join_container .join_wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.join_us .join_container .join_wrapper .auth-register, .join_us .join_container .join_wrapper .auth-login {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -25%);
+          transform: translate(-50%, -25%);
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.join_us .join_container .join_wrapper .auth-register .reg-title, .join_us .join_container .join_wrapper .auth-login .reg-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .user-input-wrp, .join_us .join_container .join_wrapper .auth-login .register-form .user-input-wrp {
+  position: relative;
+  width: 94%;
+  margin: 5px 0px;
+  margin-top: 20px;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .user-input-wrp .inputText, .join_us .join_container .join_wrapper .auth-login .register-form .user-input-wrp .inputText {
+  width: 100%;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 10px 13px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0 !important;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .focusInput, .join_us .join_container .join_wrapper .auth-login .register-form .focusInput {
+  background-color: #ffdba6 !important;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .floatlabel, .join_us .join_container .join_wrapper .auth-login .register-form .floatlabel {
+  top: -20px !important;
+  left: 8px;
+  font-size: 13px;
+  opacity: 1;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .user-input-wrp .inputText:invalid, .join_us .join_container .join_wrapper .auth-login .register-form .user-input-wrp .inputText:invalid {
+  background-color: #ffdba6;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .user-input-wrp .inputText:valid, .join_us .join_container .join_wrapper .auth-login .register-form .user-input-wrp .inputText:valid {
+  background-color: #ccecff;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .user-input-wrp .floating-label, .join_us .join_container .join_wrapper .auth-login .register-form .user-input-wrp .floating-label {
+  position: absolute;
+  pointer-events: none;
+  top: 10px;
+  left: 10px;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  opacity: .5;
+  color: #5f5f5f;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .user-input-wrp .inputText:not([value=""]) ~ .floating-label,
+.join_us .join_container .join_wrapper .auth-register .register-form .user-input-wrp .inputText:focus ~ .floating-label, .join_us .join_container .join_wrapper .auth-login .register-form .user-input-wrp .inputText:not([value=""]) ~ .floating-label,
+.join_us .join_container .join_wrapper .auth-login .register-form .user-input-wrp .inputText:focus ~ .floating-label {
+  top: -20px !important;
+  left: 8px;
+  font-size: 13px;
+  opacity: 1;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .id-input, .join_us .join_container .join_wrapper .auth-login .register-form .id-input {
+  border: 2px solid #ff5b5b !important;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form #id-err, .join_us .join_container .join_wrapper .auth-login .register-form #id-err {
+  font-size: 12px;
+  color: red;
+  margin-left: 10px;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form #id-messa, .join_us .join_container .join_wrapper .auth-login .register-form #id-messa {
+  font-size: 12px;
+  color: #2a2a2a;
+  margin-left: 10px;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form #pass-err, .join_us .join_container .join_wrapper .auth-login .register-form #pass-err {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 5px;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .passwarn, .join_us .join_container .join_wrapper .auth-login .register-form .passwarn {
+  display: inline-block;
+  width: 30px;
+  height: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0 10px;
+  border-radius: 20px;
+  background-color: #3cff87;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .passwarn:nth-child(1), .join_us .join_container .join_wrapper .auth-login .register-form .passwarn:nth-child(1) {
+  margin-left: 10px !important;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .subflex, .join_us .join_container .join_wrapper .auth-login .register-form .subflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .subflex .register-btn, .join_us .join_container .join_wrapper .auth-login .register-form .subflex .register-btn {
+  border-radius: 4px;
+  padding: 13px 54px 15px;
+  background-color: #2ac6ff;
+  border: 1px solid #2ac6ff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  line-height: 19px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: white;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-transition: color 0.15s ease-in-out 0s;
+  transition: color 0.15s ease-in-out 0s;
+  display: inline-block;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .subflex .register-btn:hover, .join_us .join_container .join_wrapper .auth-login .register-form .subflex .register-btn:hover {
+  color: #6dd8ff;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .subflex .logDirect, .join_us .join_container .join_wrapper .auth-login .register-form .subflex .logDirect {
+  padding-right: 20px;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .subflex .logDirect p, .join_us .join_container .join_wrapper .auth-login .register-form .subflex .logDirect p {
+  font-size: 0.8rem;
+}
+
+.join_us .join_container .join_wrapper .auth-register .register-form .subflex .logDirect p a, .join_us .join_container .join_wrapper .auth-login .register-form .subflex .logDirect p a {
+  color: #2550ff;
+  text-decoration: underline;
+}
+
+@media (max-width: 638px) {
+  .auth-register, .auth-login {
+    width: 80%;
+  }
+  .auth-login {
+    margin-top: 30% !important;
+  }
+  .subflex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .register-btn {
+    margin-bottom: 10px;
+  }
+  .inputText {
+    width: calc(100% - 13px) !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .auth-register, .auth-login {
+    width: 90%;
+  }
+  .subflex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+/*# sourceMappingURL=join.css.map */
